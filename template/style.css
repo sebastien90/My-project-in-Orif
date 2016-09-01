@@ -1,0 +1,135 @@
+body{
+	background-color:#003333;
+	margin:0;
+	padding:0;
+}
+
+#main{
+	width:750px;
+	margin: 0 auto 0 auto;
+}
+
+#banner{
+	text-align:center;
+	margin:5px;
+	width:750px;
+	padding:15px 0 15px 0;
+	border:1px solid #FF9900;
+	background-color:#336666;
+	color:#FFFFFF;
+}
+
+#note{
+	position:relative;
+	display:block;
+	float:left;
+	width:750px;
+	background-color:#CC9966;	
+	border:1px solid #000000;
+	margin:5px;
+}
+
+#topbarreNote{
+	float:left;
+	width:736px;
+	background-color:#CCCCCC;
+	margin-top:10px;
+	clear:both;
+	border-top:1px solid #000000;
+	padding:7px;
+}
+
+.controlNote{
+	text-align:right;
+	float:right;
+	margin-right:5px;
+}
+
+.leftSide{
+	text-align:left;
+	float:left;
+	
+}
+
+.rightSide{
+	text-align:right;
+	float:right;
+	
+}
+
+a{
+	text-decoration:none;
+	border:none;
+}
+
+.FatalError{
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.content{
+	margin:5px;
+}
+
+.btnAdd{
+	background-image:url('img/add.png');
+	width:20px; 
+	height:20px; 
+	margin-right:5px;
+	background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.btnAdd:hover{
+	background-image:url('img/addHover.png');
+	width:20px; 
+	height:20px; 
+	margin-right:5px;
+	background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.btnEdit{
+	background-image:url('img/edit.png');
+	width:15px; 
+	height:15px; 
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+	display:inline;
+	text-align:left;
+	float:left;
+}
+
+.btnEdit:hover{
+	background-image:url('img/editHover.png');
+	width:15px; 
+	height:15px; 
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+	display:inline;
+}
+
+.btnDel{
+	background-image:url('img/delete.png');
+	width:15px; 
+	height:15px; 
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+	display:inline;
+	text-align:left;
+	float:right;
+}
+
+.btnDel:hover{
+	background-image:url('img/deleteHover.png');
+	width:15px; 
+	height:15px; 
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+	display:inline;
+}
+
+.errorFrm{
+	border:2px solid #FF0000;
+	
+}
